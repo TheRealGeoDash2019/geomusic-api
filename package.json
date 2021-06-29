@@ -1,4 +1,19 @@
 {
   "name": "geomusic-api",
-  "version": "1.0.0"
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheRealGeoDash2019/therealgeodash.git"
+  },
+  "keywords": ["geo", "music", "geo-music", "geomusic", "geomusicapi", "geo-musicapi", "geo-music-api", "geomusic-api"],
+  "author": "TheRealGeoDash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRealGeoDash2019/therealgeodash/issues"
+  },
+  "homepage": "https://github.com/TheRealGeoDash2019/therealgeodash"
 }
