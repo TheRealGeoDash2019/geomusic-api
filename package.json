@@ -10,8 +10,11 @@
     "url": "https://github.com/TheRealGeoDash2019/therealgeodash.git"
   },
   "keywords": ["geo", "music", "geo-music", "geomusic", "geomusicapi", "geo-musicapi", "geo-music-api", "geomusic-api"],
-  "author": "TheRealGeoDash",
-  "license": "ISC",
+  "author": {
+    "name": "TheRealGeoDash",
+    "email": "TheRealGeoDash2019@gmail.com"
+  },
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/TheRealGeoDash2019/therealgeodash/issues"
   },
