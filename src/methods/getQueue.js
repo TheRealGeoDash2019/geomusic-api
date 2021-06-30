@@ -14,10 +14,8 @@ module.exports = async (token, jsonData) => {
       "user": "710268763844640839",
       //REQUIRED: The Guild to Get the User from
       "guild": "813439825692327968",
-      //REQUIRED: Not a Real Auth Key! Get Your Own by DMing TheRealGeoDash#0295 on Discord!
-      "auth": "vs7FfV$8cnW9KLH$9REemHcnJ^4*PquKZ@nTVtvBgUmh$Ya8",
       //OPTIONAL: Return Type can be "json" or "string". Defaults to JSON
-      "return": "json"
+      "return": "json",
       //REQUIRED: Return Data Type needs to be "queue" to get the Queue
       "data": "queue"
     }
@@ -28,7 +26,6 @@ module.exports = async (token, jsonData) => {
   if (!jsonData) requestJSON = {
     "user": "710268763844640839",
     "guild": "813439825692327968",
-    "auth": "DEMO_AUTH_V1",
     "return": "json",
     "data": "queue"
   }
@@ -36,7 +33,6 @@ module.exports = async (token, jsonData) => {
   if (jsonData && jsonData?.auth !== null && jsonData?.user !== null && jsonData?.guild !== null) requestJSON = {
     "user": jsonData?.user?.toString(),
     "guild": jsonData?.guild?.toString(),
-    "auth": jsonData?.auth?.toString(),
     "return": jsonData?.return? jsonData?.return?.toString() : "json",
     "data": jsonData?.data?.toString()
   }
