@@ -15,6 +15,6 @@
   },
   "homepage": "https://github.com/TheRealGeoDash2019/therealgeodash",
   "dependencies": {
-    "got": "11.8.2",
+    "got": "11.8.2"
   }
 }
