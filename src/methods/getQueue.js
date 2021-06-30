@@ -41,5 +41,7 @@ module.exports = async (token, jsonData) => {
     "data": jsonData?.data?.toString()
   }
   
-  let response = got("https://geomusic.geoanything.page/api/v1/", {headers: Headers, json: requestJSON)
+  let response = await got("https://geomusic.geoanything.page/api/v1/", {headers: Headers, json: requestJSON)
+  
+  return JSON.parse(response.body)
 }
