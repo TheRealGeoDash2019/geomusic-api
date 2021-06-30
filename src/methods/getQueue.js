@@ -34,10 +34,10 @@ module.exports = async (token, jsonData) => {
   }
   
   if (jsonData && jsonData?.auth !== null && jsonData?.user !== null && jsonData?.guild !== null) requestJSON = {
-    "user": jsonData?.user?.toString()
-    "guild": jsonData?.guild?.toString()
-    "auth": jsonData?.auth?.toString()
-    "return": jsonData?.return? jsonData?.return?.toString() : "json"
+    "user": jsonData?.user?.toString(),
+    "guild": jsonData?.guild?.toString(),
+    "auth": jsonData?.auth?.toString(),
+    "return": jsonData?.return? jsonData?.return?.toString() : "json",
     "data": jsonData?.data?.toString()
   }
   
