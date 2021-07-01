@@ -35,5 +35,7 @@ const geomusicapi = require('geomusic-api')
 const apimsg = await geomusicapi.getQueue("myapikey-dalskdalsdkasldkalsdkasldkalsdk",)
 const msg = JSON.stringify(apimsg) //Discord Readable otherwise this is not needed
 
-//Do something with the apimsg variable
+//Do something with the apimsg or msg* variable
 ```
+
+* You do not need to use this unless you really need to
