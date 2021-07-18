@@ -5,7 +5,7 @@ Note: This is a Beta!
 
 * NPM
 ```sh
-npm i TheRealGeoDash2019/geomusic-api
+npm i @TheRealGeoDash2019/geomusic-api
 ```
 
 * Usage
