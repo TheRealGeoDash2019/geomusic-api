@@ -1,20 +1,32 @@
 {
   "name": "geomusic-api",
-  "description": "",
-  "version": "1.0.0",
+  "version": "2.0.2",
+  "description": "Geo Music API for Node JS",
   "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheRealGeoDash2019/therealgeodash.git"
+    "url": "git+https://github.com/TheRealGeoDash2019/geomusic-api.git"
   },
-  "keywords": ["geo", "music", "geo-music", "geomusic", "geomusicapi", "geo-musicapi", "geo-music-api", "geomusic-api"],
-  "author": "TheRealGeoDash <TheRealGeoDash2019@gmail.com>",
+  "keywords": [
+    "geo",
+    "music",
+    "geo-music",
+    "geomusic",
+    "geomusicapi",
+    "geo-musicapi",
+    "geo-music-api",
+    "geomusic-api"
+  ],
+  "author": "TheRealGeoDash",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/TheRealGeoDash2019/therealgeodash/issues"
+    "url": "https://github.com/TheRealGeoDash2019/geomusic-api/issues"
   },
-  "homepage": "https://github.com/TheRealGeoDash2019/therealgeodash",
+  "homepage": "https://github.com/TheRealGeoDash2019/geomusic-api#readme",
   "dependencies": {
-    "got": "11.8.2"
+    "got": "^11.8.2"
   }
 }
