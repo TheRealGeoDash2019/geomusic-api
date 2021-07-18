@@ -24,9 +24,7 @@ const geomusicapi = require('geomusic-api')
 
   myJSON = {
     "user": "User ID from Discord",
-    "guild": "Guild ID from Discord",
-    "return": "json" //Can be Blank
-    "data": "queue" //Return the Queue!
+    "guild": "Guild ID from Discord"
   }
 */
 
@@ -34,8 +32,6 @@ const geomusicapi = require('geomusic-api')
 let myJSON = {
   "user": "123456789012345678",
   "guild": "123456789012345678",
-  "return": "json",
-  "data": "queue"
 }
 
 const apimsg = await geomusicapi.getQueue("myapikey-dalskdalsdkasldkalsdkasldkalsdk", myJSON)
