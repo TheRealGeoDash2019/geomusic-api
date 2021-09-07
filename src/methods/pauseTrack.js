@@ -19,9 +19,9 @@ module.exports = async (token, jsonData) => {
   
   let requestJSON = null;
   
-  if (!token) return throw new Error("No Auth Token")
+  if (!token) return;
   
-  if (!jsonData) return throw new Error("No JSON Data Provided in Request")
+  if (!jsonData) return;
   
   if (jsonData && jsonData?.user !== null && jsonData?.guild !== null) requestJSON = {
     "user": jsonData?.user?.toString(),
